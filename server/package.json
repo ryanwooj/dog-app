@@ -1,0 +1,34 @@
+{
+  "name": "dog-app",
+  "version": "1.0.0",
+  "description": "Graphql Study Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start:dev": "ts-node src/index.ts nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanwooj/graph-tree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanwooj/graph-tree/issues"
+  },
+  "homepage": "https://github.com/ryanwooj/graph-tree#readme",
+  "dependencies": {
+    "@prisma/client": "^3.9.2",
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0",
+    "prisma": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
